@@ -46,7 +46,7 @@ pip install numpy scipy scikit-learn torch matplotlib torchsde torchdiffeq
   * `EGFR_K_with_Ksb.py`: The Python script containing repeated simulations of the EGFR signalling pathways with Michaelis-Menten dynamics, based on approach 1 on page 50.
   * `EGFR_K_with_Kbb.py`: The Python script containing repeated simulations of the EGFR signalling pathways with Michaelis-Menten dynamics, based on approach 2 on page 50.
   * `EGFR_boundary_nodes.py`: The Python script containing repeated simulations of the EGFR signalling pathways subnetwork with Michaelis-Menten dynamics and auxiliary bulk variables used to analyse the calibration of boundary parameters. Approach 3 on page 47.
-  * `utils.py`
+  * `utils.py`: The Python script containing the key functions and classes used by the other files.
 
 ## Implementation Details
 This code is dependent on the NeuralABM repository by Gaskin et al.: https://github.com/ThGaskin/NeuralABM. Ensure that this is operational prior to running the scripts given here, and move the Excel files above into the NeuralABM folder. The neural network architectures, random seeds, repeats, scaling, priors, etc. can be changed by adjusting the corresponding variables.
